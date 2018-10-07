@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = "!"
+const prefix = "?"
 
 client.on('message', message => {
 if (message.author.id === client.user.id) return;
